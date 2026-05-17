@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherPlus</title>
+</head>
+<body>
+    <header>
+        <div class="busqueda-ciudad">
+            <button class="btn-busqueda"><img src="images/busqueda.png" alt="imagen-busqueda"></button>
+            <input type="text" class="input-ciudad" placeholder="Ciudad...">
+            <button class="btn-ubicacion"><img src="images/marcador.png" alt="imagen-ubicacion"></button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="clima">
+                <h2>WheaterPlus</h2>
+                <div class="clima-info">
+                    <p></p>
+                    <h1 class="temperatura">Sin datos...</h1>
+                    <select name="tempInfo" class="temp-info">
+                        <option value="celsius">C°</option>
+                        <option value="fahrenheit">F°</option>
+                    </select>
+                    <p class="descripcion">-</p>
+                    <p class="ciudad">-</p>
+                </div>
+                <div class="clima-extras">
+                    <p class="humedad">Humedad    -</p>
+                    <p class="viento">Viento    -</p>
+                    <p class="presion">Presion    -</p>
+                </div>
+            </div>
+            <h3 class="title-pronostico">Pronostico de 5 dias</h3>
+
+            <div class="card-pronostico">
+                <p>No hay datos aun...</p>
+            </div>
+        </section>
+
+        <footer>
+            Un trabajo hecho por <a href="https://github.com/SamuCodev">Samuel David</a> Aprendiendo a codificar!
+        </footer>
+        
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

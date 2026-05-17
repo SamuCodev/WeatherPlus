@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    color: #e2e8f0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', serif;
+}
+
+.clear { background: linear-gradient(135deg, #85c4fe, #1d77ca); }
+.clouds { background: linear-gradient(135deg, #969697, #46464b); }
+.rain { background: linear-gradient(135deg, #8c9dee, #1a1f5a); }
+.thunderstorm { background: linear-gradient(135deg, #1a1a4e, #0a0a2e); }
+.snow { background: linear-gradient(135deg, #afdcff, #e8f4ff); }
+.mist { background: linear-gradient(135deg, #9a9aaa, #6a6a7a); }
+
+main{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.busqueda-ciudad{
+    display: flex;
+    gap: 5px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.busqueda-ciudad img{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-busqueda{
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.btn-ubicacion{
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.btn-busqueda:hover{
+    background-color: #16213e;
+}
+
+.btn-ubicacion:hover{
+    background-color: #16213e;
+}
+
+.input-ciudad{
+    width: 200px;
+    height: 20px;
+    color:#1a1f5e;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.input-ciudad::placeholder{
+    color: #1a1f5a;
+}
+
+
+.clima{
+    background-color: #16213e;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    max-width: 400px;
+}
+
+.temp-info{
+    color: #fff;
+    background-color: #16213e;
+    border: 1px solid #1a1f5e;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.clima-info{
+    padding: 30px;
+    background-color: #1a1a2e;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.clima-extras{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    background-color: #1a1a2e;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    justify-content: center;
+}
+
+.card-pronostico{
+    background-color: #16213e;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    text-align: center;
+    justify-content: center;
+}
+
+.title-pronostico{
+    text-align: center;
+    padding: 10px;
+}
+
+.pronostico-dia{
+    padding: 20px;
+    background-color: #1a1a2e;
+    border-radius: 20px;
+    gap: 5px;
+    margin: 5px;
+    width: 85px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+p{
+    font-weight:600;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pronostico-dia {
+    animation: aparecer 1 ease;
+}
+
+.clima{
+    animation: aparecer 1s ease;
+}
