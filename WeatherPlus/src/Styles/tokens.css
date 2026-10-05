@@ -1,0 +1,36 @@
+:root {
+    --fondo: hsl(240, 28%, 12%);
+    --bloque: hsl(240, 28%, 14%);
+    --tarjeta: hsl(222, 40%, 17%);
+    --borde: hsl(222, 35%, 25%);
+
+    --texto: hsl(214, 32%, 91%);
+    --texto-suave: hsl(215, 20%, 65%);
+    --texto-sobre-acento: hsl(240, 28%, 12%);
+
+    --acento: hsl(199, 89%, 60%);
+    --acento-hover: hsl(199, 89%, 70%);
+    --error: hsl(0, 75%, 62%);
+
+    --clear: linear-gradient(135deg, hsl(205, 95%, 76%), hsl(210, 75%, 45%));
+    --clouds: linear-gradient(135deg, hsl(240, 2%, 59%), hsl(240, 4%, 28%));
+    --rain: linear-gradient(135deg, hsl(229, 70%, 72%), hsl(235, 60%, 22%));
+    --thunderstorm: linear-gradient(
+        135deg,
+        hsl(240, 60%, 20%),
+        hsl(240, 65%, 11%)
+    );
+    --snow: linear-gradient(135deg, hsl(207, 100%, 84%), hsl(210, 100%, 96%));
+    --mist: linear-gradient(135deg, hsl(240, 8%, 63%), hsl(240, 8%, 45%));
+
+    --radio-sm: 12px;
+    --radio-md: 16px;
+    --radio-lg: 20px;
+    --sombra: 0 8px 24px hsla(0, 0%, 0%, 0.3);
+
+    --ancho-navbar: 200px;
+
+    --fuente: "Inter", system-ui, sans-serif;
+
+    --transition: all 0.5s ease;
+}
