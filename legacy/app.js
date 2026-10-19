@@ -138,7 +138,6 @@ function mostrarPronostico(pronosticoDiarioCard){
         <p>${dia.weather[0].main}</p>
         `
         cardPronostico.appendChild(cardDia)
-        
     });
 }
 

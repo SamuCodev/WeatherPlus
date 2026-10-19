@@ -1,0 +1,40 @@
+.ajustes {
+    background-color: var(--fondo);
+    border-radius: var(--radio-md);
+    padding: 1rem 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.op {
+    display: flex;
+    padding: 2rem 1rem 1rem 0;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--borde);
+    align-items: center;
+}
+
+.op select,
+input {
+    border: 2px solid var(--borde);
+    border-radius: 8px;
+    background-color: var(--tarjeta);
+    color: white;
+}
+
+.op select {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.op select:hover {
+    background-color: var(--fondo);
+}
+
+.op input {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+}

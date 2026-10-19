@@ -12,7 +12,7 @@
     --acento-hover: hsl(199, 89%, 70%);
     --error: hsl(0, 75%, 62%);
 
-    --clear: linear-gradient(135deg, hsl(205, 95%, 76%), hsl(210, 75%, 45%));
+    --clear: linear-gradient(135deg, hsl(205, 100%, 81%), hsl(210, 70%, 47%));
     --clouds: linear-gradient(135deg, hsl(240, 2%, 59%), hsl(240, 4%, 28%));
     --rain: linear-gradient(135deg, hsl(229, 70%, 72%), hsl(235, 60%, 22%));
     --thunderstorm: linear-gradient(
@@ -28,7 +28,7 @@
     --radio-lg: 20px;
     --sombra: 0 8px 24px hsla(0, 0%, 0%, 0.3);
 
-    --ancho-navbar: 200px;
+    --ancho-navbar: 250px;
 
     --fuente: "Inter", system-ui, sans-serif;
 

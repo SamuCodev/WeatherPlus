@@ -12,3 +12,18 @@ svg {
     display: block;
     overflow: hidden;
 }
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    color: var(--texto);
+    overflow-x: hidden;
+}
+
+#root {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
