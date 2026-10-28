@@ -11,7 +11,7 @@
 
 **WeatherPlus** es una aplicación web moderna, interactiva y reactiva desarrollada con **React 19** y **Vite**, diseñada para consultar el clima en tiempo real y explorar pronósticos meteorológicos extendidos y detallados en cualquier lugar del mundo a través de la API de **OpenWeatherMap**.
 
-[Vista Previa](#-vistas-previas) • [Características](#-características) • [Tecnologías](#-tecnologías-utilizadas) • [Instalación](#-instalación-y-uso) • [Estructura](#-estructura-del-proyecto) • [Autor](#-autor)
+[Características](#-características) • [Tecnologías](#-tecnologías-utilizadas) • [Instalación](#-instalación-y-uso) • [Estructura](#-estructura-del-proyecto) • [Autor](#-autor)
 
 ---
 
