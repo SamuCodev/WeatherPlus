@@ -12,16 +12,16 @@
     --acento-hover: hsl(199, 89%, 70%);
     --error: hsl(0, 75%, 62%);
 
-    --clear: linear-gradient(135deg, hsl(205, 100%, 81%), hsl(210, 70%, 47%));
-    --clouds: linear-gradient(135deg, hsl(240, 2%, 59%), hsl(240, 4%, 28%));
-    --rain: linear-gradient(135deg, hsl(229, 70%, 72%), hsl(235, 60%, 22%));
+    --clear: linear-gradient(135deg, hsl(206, 100%, 95%), hsl(210, 89%, 49%));
+    --clouds: linear-gradient(135deg, hsl(0, 0%, 85%), hsl(0, 0%, 19%));
+    --rain: linear-gradient(135deg, hsl(229, 100%, 77%), hsl(235, 98%, 21%));
     --thunderstorm: linear-gradient(
         135deg,
-        hsl(240, 60%, 20%),
-        hsl(240, 65%, 11%)
+        hsl(240, 59%, 14%),
+        hsl(240, 94%, 7%)
     );
-    --snow: linear-gradient(135deg, hsl(207, 100%, 84%), hsl(210, 100%, 96%));
-    --mist: linear-gradient(135deg, hsl(240, 8%, 63%), hsl(240, 8%, 45%));
+    --snow: linear-gradient(135deg, hsl(207, 100%, 86%), hsl(210, 100%, 96%));
+    --mist: linear-gradient(135deg, hsl(240, 8%, 63%), hsl(240, 19%, 40%));
 
     --radio-sm: 12px;
     --radio-md: 16px;

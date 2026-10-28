@@ -9,7 +9,7 @@
     display: flex;
     gap: 0.75rem;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
@@ -17,7 +17,7 @@
 
 .buscador input {
     width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.25rem;
     border: 2px solid var(--borde);
     border-radius: var(--radio-md);
     background-color: var(--tarjeta);
@@ -33,6 +33,7 @@
 
 .buscador input:focus {
     border-color: var(--acento);
+    box-shadow: 0 0 0 3px hsla(199, 89%, 60%, 0.2);
 }
 
 .home__container button {
@@ -50,9 +51,29 @@
     transition: var(--transition);
 }
 
-.home__container button:hover {
+.home__container button:hover:not(:disabled) {
     background-color: var(--acento-hover);
     transform: scale(1.05);
+}
+
+.home__container button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.btn__ubicacion--loading svg {
+    animation: pulsarUbicacion 1s infinite alternate;
+}
+
+@keyframes pulsarUbicacion {
+    from {
+        transform: scale(0.9);
+        opacity: 0.6;
+    }
+    to {
+        transform: scale(1.2);
+        opacity: 1;
+    }
 }
 
 .home__card {
